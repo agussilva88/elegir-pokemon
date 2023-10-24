@@ -1,0 +1,79 @@
+*{
+    background-color: aquamarine;
+}
+nav img {
+    width: 18.75em;
+    height: 6.25em;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+h1 {
+    font-family: 'Balsamiq Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.image-container img {
+    width: 12.5em;
+    height: 12.5em;
+}
+.image-container__bulbasaur{
+    position: absolute;
+    left: 12.5em;
+    top: 15.6em;
+    transition: .5s;
+    opacity: 1;
+}
+.image-container__charmander{
+    position: absolute;
+    left: 28.1em;
+    top: 15.6em;
+    transition: .5s;
+}
+.image-container__squirtle{
+    position: absolute;
+    left: 45.625em;
+    top: 15.6em;
+    transition: .5s;
+}
+.image-container__pikachu{
+    position: absolute;
+    left: 62.5em;
+    top: 15.6em;
+    transition: .5s;   
+}
+.image-container__bulbasaur:hover {
+    transform: translateY(-30px);
+}
+.image-container__charmander:hover {
+    transform: translateY(-1.9em);
+}
+.image-container__squirtle:hover {
+    transform: translateY(-1.9em);
+}
+.image-container__pikachu:hover{
+    transform: translateY(-1.9em);
+}
+.image-link__bulbasaur{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}.image-link__charmander{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.image-link__squirtle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.image-link__pikachu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
